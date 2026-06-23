@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Reset | Personal Dashboard</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Design -->
+    <div class="bg-glow blob-1"></div>
+    <div class="bg-glow blob-2"></div>
+
+    <!-- Phone Simulator Frame -->
+    <div class="phone-frame">
+        <div class="phone-camera"></div>
+        <div class="phone-screen">
+            
+            <!-- App Header Status -->
+            <div class="app-header">
+                <div class="journey-section">
+                    <span class="header-label">YOUR JOURNEY TIME</span>
+                    <div id="journey-time">00:00:00:00</div>
+                </div>
+                <div class="stats-indicators">
+                    <div class="stat-badge streak">
+                        <i class="fa-solid fa-fire"></i> <span id="streak-count">12</span>
+                    </div>
+                    <div class="stat-badge trophy">
+                        <i class="fa-solid fa-trophy"></i> <span id="trophy-count">0</span>
+                    </div>
+                    <div class="stat-badge gems">
+                        <i class="fa-solid fa-gem"></i> <span id="gems-count">67</span>
+                        <span class="gems-delta" id="gems-delta-val">(+12)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day Selector -->
+            <div class="day-selector-bar">
+                <button type="button" class="day-nav-btn" id="btn-prev-day"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="day-title-container">
+                    <h1 id="day-title">Day 1/60</h1>
+                    <p class="day-motivation">You're doing great. Keep going!</p>
+                </div>
+                <button type="button" class="day-nav-btn" id="btn-next-day"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+            <!-- Scrollable Content Body -->
+            <div class="app-content-body">
+                
+                <!-- Weekly Analytics Snippet Widget -->
+                <div class="improvement-widget card-gradient-water">
+                    <div class="widget-header">
+                        <div class="badge-mini">
+                            <i class="fa-solid fa-droplet"></i> Water Intake
+                        </div>
+                        <span class="improvement-percentage">+20% this week</span>
+                    </div>
+                    <h3>Drink 4L water</h3>
+                    <p class="widget-desc">Stay hydrated, stay energized.</p>
+                    
+                    <!-- Analytics Spark Bar Chart -->
+                    <div class="spark-chart">
+                        <div class="spark-bar" style="--h: 40%;"></div>
+                        <div class="spark-bar" style="--h: 60%;"></div>
+                        <div class="spark-bar" style="--h: 30%;"></div>
+                        <div class="spark-bar" style="--h: 80%;"></div>
+                        <div class="spark-bar" style="--h: 70%;"></div>
+                        <div class="spark-bar" style="--h: 90%;"></div>
+                        <div class="spark-bar active" style="--h: 100%;"></div>
+                    </div>
+
+                    <div class="widget-footer">
+                        <span>Compared your last week: <strong>+20% water/day</strong></span>
+                        <p class="impact-result">Result: Focus increases (+29%)</p>
+                    </div>
+                </div>
+
+                <!-- Habit Filters Tabs -->
+                <div class="habit-tabs-bar">
+                    <button class="tab-btn active" data-tab="todos">
+                        To-dos <span class="tab-badge" id="badge-todos">0</span>
+                    </button>
+                    <button class="tab-btn" data-tab="done">
+                        Done <span class="tab-badge" id="badge-done">0</span>
+                    </button>
+                    <button class="tab-btn" data-tab="skipped">
+                        Skipped <span class="tab-badge" id="badge-skipped">0</span>
+                    </button>
+                </div>
+
+                <!-- Habits List Container -->
+                <div class="habits-list" id="habits-list-container">
+                    <!-- Cards will be dynamically inserted here via script.js -->
+                </div>
+
+                <!-- Achievements Showcase Section -->
+                <div class="achievements-section">
+                    <div class="section-heading">
+                        <h2>New Achievements</h2>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="ach-icon-container">
+                            <i class="fa-solid fa-sun-rising ach-icon"></i>
+                        </div>
+                        <div class="ach-details">
+                            <h3>The Initiate</h3>
+                            <p class="ach-quote">"I wake up as the sun awake; in the world to its wokeness."</p>
+                            <span class="ach-condition"><i class="fa-solid fa-circle-check"></i> Wake up at 7 AM for 10 days</span>
+                            <span class="ach-date">Unlocked on Jan 3, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Navigation Dock Bar -->
+            <div class="bottom-dock-nav">
+                <button class="dock-btn active"><i class="fa-solid fa-chart-simple"></i></button>
+                <button class="dock-btn"><i class="fa-solid fa-sparkles"></i></button>
+                <button class="dock-btn dock-btn-center"><i class="fa-solid fa-plus"></i></button>
+                <a href="printable_planner.html" class="dock-btn" title="Printable Planner"><i class="fa-solid fa-print"></i></a>
+                <button class="dock-btn" id="btn-reset-app" title="Reset Challenge"><i class="fa-solid fa-arrows-rotate"></i></button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

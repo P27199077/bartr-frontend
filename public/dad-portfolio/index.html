@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Gupta | Executive Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Effects -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-accent">V</span>IKAS <span class="logo-accent">G</span>UPTA
+        </div>
+        <nav class="nav">
+            <a href="#about" class="nav-link active">About</a>
+            <a href="#metrics" class="nav-link">Pillars</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Timeline</a>
+            <a href="#education" class="nav-link">Credentials</a>
+            <a href="#contact" class="nav-btn">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="hero-grid">
+                <div class="hero-text-block">
+                    <div class="badge">
+                        <i class="fa-solid fa-chart-line"></i> Operations & Customer Service Leader
+                    </div>
+                    <h1 class="hero-title">
+                        Translating <span class="gradient-text">Vision</span> <br>Into Reality.
+                    </h1>
+                    <p class="hero-subtitle">
+                        Over two decades of driving operational excellence, customer satisfaction (CSAT/NPS), Six Sigma optimization, and high-performance team leadership across India's largest consumer brands.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#experience" class="btn btn-primary">Explore Career Timeline</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+
+                <!-- Interactive Hero Dashboard Widget -->
+                <div class="hero-visual">
+                    <div class="dashboard-card glass">
+                        <div class="db-header">
+                            <div class="db-user">
+                                <div class="avatar-container">
+                                    <div class="avatar-glow"></div>
+                                    <img src="photo.png" alt="Vikas Gupta" class="avatar-image">
+                                </div>
+                                <div class="db-user-info">
+                                    <h3>Vikas Gupta</h3>
+                                    <p>Head of Operations @ Hindware</p>
+                                </div>
+                            </div>
+                            <span class="status-indicator"><span class="pulse"></span> Active</span>
+                        </div>
+
+                        <!-- Mini Stats Grid -->
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-value" data-target="20">0</span><span class="stat-plus">+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value" data-target="98">0</span><span class="stat-plus">%</span>
+                                <span class="stat-label">Max CSAT Score</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value" data-target="82">0</span><span class="stat-plus">+</span>
+                                <span class="stat-label">NPS Score</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-value" data-target="500">0</span><span class="stat-plus">+</span>
+                                <span class="stat-label">Teams Managed</span>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Chart / Progress Ring -->
+                        <div class="db-footer">
+                            <div class="kpi-progress">
+                                <div class="kpi-ring" style="--percent: 92;">
+                                    <svg>
+                                        <circle cx="35" cy="35" r="30"></circle>
+                                        <circle cx="35" cy="35" r="30" class="progress-bar"></circle>
+                                    </svg>
+                                    <div class="kpi-number">SixSigma</div>
+                                </div>
+                                <div class="kpi-desc">
+                                    <h4>Operational Efficiency</h4>
+                                    <p>Optimized logistics, spare parts, and supply chains.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Executive Pillars Section -->
+        <section id="metrics" class="pillars-section">
+            <h2 class="section-title text-center">Core <span class="gradient-text">Pillars</span> of Expertise</h2>
+            <p class="section-subtitle text-center">Interactive dashboard showing key areas of strategic impact.</p>
+
+            <div class="pillars-container">
+                <!-- Pillar Tabs -->
+                <div class="pillars-tabs">
+                    <button class="tab-btn active" data-tab="cust-service">
+                        <i class="fa-solid fa-headset"></i> Customer Service Ops
+                    </button>
+                    <button class="tab-btn" data-tab="spare-parts">
+                        <i class="fa-solid fa-gears"></i> Spare Parts Logistics
+                    </button>
+                    <button class="tab-btn" data-tab="six-sigma">
+                        <i class="fa-solid fa-gauge-high"></i> Six Sigma & KPIs
+                    </button>
+                    <button class="tab-btn" data-tab="leadership">
+                        <i class="fa-solid fa-users-gear"></i> Team & Training
+                    </button>
+                </div>
+
+                <!-- Pillar Content -->
+                <div class="pillars-display glass">
+                    <div class="tab-content active" id="cust-service">
+                        <div class="tab-grid">
+                            <div class="tab-info">
+                                <h3>Elevating Customer Experience (CX)</h3>
+                                <p>Leading customer service operations with a focus on raising the bar for client satisfaction. Maximizing Customer Satisfaction (CSAT) scores and Net Promoter Scores (NPS) through systematized service standards.</p>
+                                <ul class="pill-list">
+                                    <li><i class="fa-solid fa-check text-accent"></i> Customer service center orchestration</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Service recovery workflows</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Customer sentiment analysis & NPS feedback loops</li>
+                                </ul>
+                            </div>
+                            <div class="tab-visual">
+                                <div class="gauge-container">
+                                    <div class="gauge-ring" style="--g-percent: 98;">
+                                        <div class="gauge-val">98%</div>
+                                    </div>
+                                    <p class="gauge-label">CSAT Index Achieved</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="spare-parts">
+                        <div class="tab-grid">
+                            <div class="tab-info">
+                                <h3>National Spare Parts Management</h3>
+                                <p>Decades of experience coordinating national warehousing, parts distribution, and supply chains for consumer giants like Panasonic, Haier, Samsung, and Hindware.</p>
+                                <ul class="pill-list">
+                                    <li><i class="fa-solid fa-check text-accent"></i> Supply chain planning & distribution logistics</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Inventory shrinkage control & parts forecasting</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Turn-Around Time (TAT) reduction</li>
+                                </ul>
+                            </div>
+                            <div class="tab-visual">
+                                <div class="metric-bar-container">
+                                    <div class="bar-item">
+                                        <div class="bar-labels">
+                                            <span>TAT Reduction</span>
+                                            <span>-30%</span>
+                                        </div>
+                                        <div class="bar-track"><div class="bar-fill" style="width: 75%;"></div></div>
+                                    </div>
+                                    <div class="bar-item">
+                                        <div class="bar-labels">
+                                            <span>Inventory Precision</span>
+                                            <span>99.2%</span>
+                                        </div>
+                                        <div class="bar-track"><div class="bar-fill" style="width: 95%;"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="six-sigma">
+                        <div class="tab-grid">
+                            <div class="tab-info">
+                                <h3>Six Sigma & Process Improvement</h3>
+                                <p>Leveraging data-driven methodologies to eliminate defects, optimize cycle times, and streamline daily operational workflows.</p>
+                                <ul class="pill-list">
+                                    <li><i class="fa-solid fa-check text-accent"></i> Process mapping and bottleneck analysis</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Cost reduction initiatives in warehousing</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Implementation of standard operating procedures (SOPs)</li>
+                                </ul>
+                            </div>
+                            <div class="tab-visual">
+                                <div class="sig-sigma-badge">
+                                    <i class="fa-solid fa-dna sigma-icon"></i>
+                                    <div class="sigma-txt">DMAIC Framework Approved</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="leadership">
+                        <div class="tab-grid">
+                            <div class="tab-info">
+                                <h3>High-Performance Team Orchestration</h3>
+                                <p>Believer in fostering high-performance cultures, establishing metrics-driven accountability, and executing skill-gap training programs.</p>
+                                <ul class="pill-list">
+                                    <li><i class="fa-solid fa-check text-accent"></i> Multi-tier team leadership (500+ professionals)</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Specialized technical and customer-handling workshops</li>
+                                    <li><i class="fa-solid fa-check text-accent"></i> Conflict resolution and performance frameworks</li>
+                                </ul>
+                            </div>
+                            <div class="tab-visual">
+                                <div class="team-stat-box">
+                                    <i class="fa-solid fa-people-group team-icon"></i>
+                                    <h4>Mentorship Driven</h4>
+                                    <p>Empowering team members to step into leadership roles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title text-center">Professional <span class="gradient-text">Skills</span></h2>
+            <p class="section-subtitle text-center">Expertise categories endorsed by industry peers and colleagues.</p>
+
+            <div class="skills-filter-container">
+                <button class="filter-btn active" data-filter="all">All Skills</button>
+                <button class="filter-btn" data-filter="operations">Supply Chain & Operations</button>
+                <button class="filter-btn" data-filter="tools">Tools & Tech Systems</button>
+                <button class="filter-btn" data-filter="management">Leadership & Strategy</button>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Supply Chain Management</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-medal ribbon-icon"></i>
+                        <span>35+ Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Supply Chain</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-ribbon ribbon-icon"></i>
+                        <span>18 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Logistics</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>13 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 4 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Warehouse Management</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>11 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 5 -->
+                <div class="skill-card glass" data-category="management">
+                    <div class="skill-info">
+                        <h3>Customer Satisfaction</h3>
+                        <span class="category-tag tag-management">Leadership</span>
+                    </div>
+                    <div class="skill-endorsements text-success">
+                        <i class="fa-solid fa-star ribbon-icon"></i>
+                        <span>Top Endorsed</span>
+                    </div>
+                </div>
+                <!-- Skill 6 -->
+                <div class="skill-card glass" data-category="management">
+                    <div class="skill-info">
+                        <h3>Man-Management</h3>
+                        <span class="category-tag tag-management">Leadership</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-users ribbon-icon"></i>
+                        <span>Highly Skilled</span>
+                    </div>
+                </div>
+                <!-- Skill 7 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Process Orientation</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements text-muted">
+                        <i class="fa-solid fa-circle-check ribbon-icon"></i>
+                        <span>Verified Expert</span>
+                    </div>
+                </div>
+                <!-- Skill 8 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Materials Management</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>8 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 9 -->
+                <div class="skill-card glass" data-category="management">
+                    <div class="skill-info">
+                        <h3>Strategy</h3>
+                        <span class="category-tag tag-management">Leadership</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>9 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 10 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Warehousing</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements text-muted">
+                        <i class="fa-solid fa-circle-check ribbon-icon"></i>
+                        <span>Expert</span>
+                    </div>
+                </div>
+                <!-- Skill 11 -->
+                <div class="skill-card glass" data-category="tools">
+                    <div class="skill-info">
+                        <h3>Strategic Sourcing</h3>
+                        <span class="category-tag tag-tools">Strategy</span>
+                    </div>
+                    <div class="skill-endorsements text-muted">
+                        <i class="fa-solid fa-circle-check ribbon-icon"></i>
+                        <span>Expert</span>
+                    </div>
+                </div>
+                <!-- Skill 12 -->
+                <div class="skill-card glass" data-category="tools">
+                    <div class="skill-info">
+                        <h3>CRM Systems</h3>
+                        <span class="category-tag tag-tools">Tech Systems</span>
+                    </div>
+                    <div class="skill-endorsements text-muted">
+                        <i class="fa-solid fa-chart-bar ribbon-icon"></i>
+                        <span>4 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 13 -->
+                <div class="skill-card glass" data-category="tools">
+                    <div class="skill-info">
+                        <h3>Sourcing & Procurement</h3>
+                        <span class="category-tag tag-tools">Strategy</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>7 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 14 -->
+                <div class="skill-card glass" data-category="management">
+                    <div class="skill-info">
+                        <h3>Negotiation</h3>
+                        <span class="category-tag tag-management">Leadership</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>7 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 15 -->
+                <div class="skill-card glass" data-category="operations">
+                    <div class="skill-info">
+                        <h3>Inventory Management</h3>
+                        <span class="category-tag tag-operations">Operations</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>6 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 16 -->
+                <div class="skill-card glass" data-category="management">
+                    <div class="skill-info">
+                        <h3>Team Leadership</h3>
+                        <span class="category-tag tag-management">Leadership</span>
+                    </div>
+                    <div class="skill-endorsements text-success">
+                        <i class="fa-solid fa-award ribbon-icon"></i>
+                        <span>Core Competency</span>
+                    </div>
+                </div>
+                <!-- Skill 17 -->
+                <div class="skill-card glass" data-category="tools">
+                    <div class="skill-info">
+                        <h3>ERP (SAP/Oracle)</h3>
+                        <span class="category-tag tag-tools">Tech Systems</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>7 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 18 -->
+                <div class="skill-card glass" data-category="management">
+                    <div class="skill-info">
+                        <h3>Team Management</h3>
+                        <span class="category-tag tag-management">Leadership</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>9 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 19 -->
+                <div class="skill-card glass" data-category="tools">
+                    <div class="skill-info">
+                        <h3>Quality Assurance</h3>
+                        <span class="category-tag tag-tools">Tech Systems</span>
+                    </div>
+                    <div class="skill-endorsements">
+                        <i class="fa-solid fa-thumbs-up ribbon-icon"></i>
+                        <span>7 Endorsements</span>
+                    </div>
+                </div>
+                <!-- Skill 20 -->
+                <div class="skill-card glass" data-category="management">
+                    <div class="skill-info">
+                        <h3>Leadership</h3>
+                        <span class="category-tag tag-management">Leadership</span>
+                    </div>
+                    <div class="skill-endorsements text-success">
+                        <i class="fa-solid fa-award ribbon-icon"></i>
+                        <span>Highly Endorsed</span>
+                    </div>
+                </div>
+                <!-- Skill 21 -->
+                <div class="skill-card glass" data-category="tools">
+                    <div class="skill-info">
+                        <h3>WMS (Warehouse Management Systems)</h3>
+                        <span class="category-tag tag-tools">Tech Systems</span>
+                    </div>
+                    <div class="skill-endorsements text-muted">
+                        <i class="fa-solid fa-circle-check ribbon-icon"></i>
+                        <span>Verified</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section id="experience" class="timeline-section">
+            <h2 class="section-title text-center">Professional <span class="gradient-text">Trajectory</span></h2>
+            <p class="section-subtitle text-center">Over 20 years of leading corporate operations & service networks.</p>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <!-- Job 1 -->
+                <div class="timeline-item left reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="card-header">
+                            <span class="company-badge"><i class="fa-solid fa-building-circle-check"></i> Hindware Limited</span>
+                            <span class="timeline-date">May 2025 - Present</span>
+                        </div>
+                        <h3>Head Operations - Customer Service</h3>
+                        <p class="job-meta">Gurugram, Haryana | Full-time</p>
+                        <p class="job-desc">
+                            Directing national customer service operations. Leading teams to elevate client satisfaction indexes, manage service partner KPIs, and streamline inventory operations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="timeline-item right reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="card-header">
+                            <span class="company-badge"><i class="fa-solid fa-building"></i> Hindware Limited</span>
+                            <span class="timeline-date">Jun 2023 - Apr 2025</span>
+                        </div>
+                        <h3>DGM - Service Operations</h3>
+                        <p class="job-meta">Gurugram, Haryana</p>
+                        <p class="job-desc">
+                            Oversaw service operations networks. Led Six Sigma initiatives focusing on inventory precision, warehouse logistics management, and service partner training.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="timeline-item left reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="card-header">
+                            <span class="company-badge"><i class="fa-solid fa-building"></i> Hindware Limited</span>
+                            <span class="timeline-date">Dec 2019 - Jul 2023</span>
+                        </div>
+                        <h3>AGM - Service Operations</h3>
+                        <p class="job-meta">Gurugram, Haryana</p>
+                        <p class="job-desc">
+                            Managed region-wide spare parts distribution and client support logistics. Structured and deployed technical training plans to optimize team capability.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="timeline-item right reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="card-header">
+                            <span class="company-badge"><i class="fa-solid fa-square-poll-vertical"></i> Panasonic India</span>
+                            <span class="timeline-date">Jun 2015 - Dec 2019</span>
+                        </div>
+                        <h3>Spare Part Manager</h3>
+                        <p class="job-meta">All India Operations</p>
+                        <p class="job-desc">
+                            Orchestrated all-India spare parts inventory management. Directed supply-chain logistics, minimized lead times, and reduced obsolescence losses.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 5 -->
+                <div class="timeline-item left reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="card-header">
+                            <span class="company-badge"><i class="fa-solid fa-industry"></i> HSIL Ltd. (Hindware)</span>
+                            <span class="timeline-date">Sep 2009 - Jun 2015</span>
+                        </div>
+                        <h3>Spare Part Manager</h3>
+                        <p class="job-meta">Gurugram, India</p>
+                        <p class="job-desc">
+                            Managed warehousing structures, parts distribution planning, and system-wide inventory replenishment audits.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 6 -->
+                <div class="timeline-item right reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="card-header">
+                            <span class="company-badge"><i class="fa-solid fa-blender"></i> Haier Appliances India</span>
+                            <span class="timeline-date">May 2008 - Nov 2009</span>
+                        </div>
+                        <h3>Spare Part Manager / Incharge</h3>
+                        <p class="job-meta">Regional Operations</p>
+                        <p class="job-desc">
+                            Supervised parts dispatch operations, regional service network support, and warehouse operations management.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Job 7 -->
+                <div class="timeline-item left reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass">
+                        <div class="card-header">
+                            <span class="company-badge"><i class="fa-solid fa-mobile-screen"></i> Samsung India Electronics</span>
+                            <span class="timeline-date">Jun 2003 - Apr 2008</span>
+                        </div>
+                        <h3>Regional Spare Incharge</h3>
+                        <p class="job-meta">North India Operations</p>
+                        <p class="job-desc">
+                            Managed inventory, customer queries resolution, and service partner logistics tracking for northern regional territories.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Credentials & Education Section -->
+        <section id="education" class="education-section">
+            <h2 class="section-title text-center">Academic <span class="gradient-text">Credentials</span></h2>
+            <p class="section-subtitle text-center">Elite management and engineering educational foundation.</p>
+
+            <div class="edu-grid">
+                <!-- Card 1 -->
+                <div class="edu-card glass">
+                    <div class="edu-icon-container">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-details">
+                        <span class="edu-date">2009 - 2010</span>
+                        <h3>IIM Calcutta</h3>
+                        <h4>Executive Programme in Supply Chain Management</h4>
+                        <p class="edu-focus">Focus: Supply Chain Logistics, Inventory Optimization, Operations Strategy.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="edu-card glass">
+                    <div class="edu-icon-container">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="edu-details">
+                        <span class="edu-date">1999 - 2003</span>
+                        <h3>Maharshi Dayanand University</h3>
+                        <h4>Bachelor of Engineering (B.E.)</h4>
+                        <p class="edu-focus">Specialization: Electronics & Communications Engineering.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="glass contact-container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Let's Discuss <br><span class="gradient-text">Operations Strategy</span></h2>
+                        <p>Interested in optimizing supply chains, enhancing customer retention metrics, or building high-performing service teams? Reach out to collaborate.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>vikasgupta.ops@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Gurugram, Haryana, India</span>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://linkedin.com" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="social-btn"><i class="fa-solid fa-briefcase"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-block">
+                        <form id="portfolio-contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="5" required placeholder="Hi Vikas, I'd like to discuss..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                        <div id="form-success-msg" class="success-message hide">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for reaching out. I'll get back to you shortly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Vikas Gupta. All rights reserved.</p>
+        <p class="built-by">Built with &hearts; by <span class="coder">Tanisha</span></p>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
