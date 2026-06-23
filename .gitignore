@@ -23,3 +23,8 @@ dist-ssr/
 *.njsproj
 *.sln
 *.sw?
+
+# Other sub-projects in public folder
+public/dad-portfolio/
+public/life-reset-app/
+public/summer-tracker/
